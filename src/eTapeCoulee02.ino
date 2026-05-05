@@ -47,7 +47,7 @@ struct Reading
     float volts;
     float batterySoc;
     float batteryVolts;
-    float batteryState;
+    int batteryState;
     float cellStrength;
     unsigned long timestamp;
 };
